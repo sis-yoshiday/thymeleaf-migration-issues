@@ -1,5 +1,6 @@
 - select thymeleaf version
 
+build.gradle
 ```groovy
 // thymeleaf2.x
 ext['thymeleaf.version'] = '2.1.5.RELEASE'
