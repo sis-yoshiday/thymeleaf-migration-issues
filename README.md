@@ -1,4 +1,4 @@
-1. select thymeleaf version
+- select thymeleaf version
 
 ```groovy
 // thymeleaf2.x
@@ -7,10 +7,10 @@ ext['thymeleaf.version'] = '2.1.5.RELEASE'
 //ext['thymeleaf.version'] = '3.0.3.RELEASE'
 ```
 
-2. do test
+- do test
 
 ```bash
 ./gradlew clean test
 ```
 
-3. see results/*.txt
+- see results/*.txt
