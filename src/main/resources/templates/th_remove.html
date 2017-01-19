@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ja">
+<head>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+<ul th:remove="all-but-first">
+  <li th:each="item : ${items}" th:text="${item}">item1, should not be shown</li>
+  <li>item2, should not be shown</li>
+  <li>item3, should not be shown</li>
+</ul>
+</body>
+</html>

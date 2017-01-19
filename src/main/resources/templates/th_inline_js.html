@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ja">
+<head>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+</body>
+<script type="text/javascript" th:inline="javascript">
+  <!--*/ wrong comment syntax /*-->
+  var v = /*[[${message}]]*/'this should not be shown';
+</script>
+<script type="text/javascript" th:inline="javascript">
+  <!--/* correct comment syntax */-->
+  var v = /*[[${message}]]*/'this should not be shown';
+</script>
+</html>
